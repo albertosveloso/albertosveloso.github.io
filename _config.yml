@@ -1,0 +1,24 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: 1º BBD Insights
+email: bbd@linx.com.br
+description: "É com muita satisfação que anuncio o 1º BBD Insights - Compartilhando conhecimento! Este é o primeiro workshop que realizaremos na Linx Filial Bebedouro, onde poderemos adquirir conhecimento trocando experiências! Abra sua mente e venha participar conosco, serão dois dias com a mesma grade, e você pode se inscrever para participar de apresentações específicas."
+baseurl: ""
+url: "http://albertoveloso.com.br"
+twitter_username: bbdinsights_twitter
+github_username:  bbdinsights_github
+
+# Build settings
+markdown: kramdown
+
+#Exemplos de permalink (links amigáveis)
+#permalink: /:categories/:year/:month/:day/:title
+#permalink: /:year/:month/:day/:title
+#permalink: /palavra/:title
+permalink: /:title

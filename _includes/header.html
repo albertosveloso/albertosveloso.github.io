@@ -1,0 +1,10 @@
+<header class="masthead">
+    <h1 class="masthead-title">
+                <a href="/">{{ site.title }}<span> LINX - Bebedouro</span><br>    
+                <span>Dias 16 e 17/06 na sala de treinamentos</span></a>           
+           </h1>
+    <nav class="masthead-nav">
+        {% for page in site.pages %}
+        <a href="{{ page.url }}">{{ page.title }}</a> {% endfor %}
+    </nav>
+</header>
